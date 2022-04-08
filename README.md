@@ -6,6 +6,7 @@ https://stupendous-genie-d6659f.netlify.app/
 <h2>💥 Updated Version includes :</h2>
 <h3>🚀  User Authentication powered by Google API  </h3>
 <h3>🚀  User name , Email Id and User profile picture visible on login with google account </h3>
+<h3>🚀  Completely mobile responsive </h3>
 <h3>🚀  New crypto-punks added  </h3>
 <h3>🚀  Enhanced User Interface </h3>
 <br/><br>
