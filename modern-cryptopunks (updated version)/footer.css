@@ -1,0 +1,32 @@
+footer{
+    padding: 20px;
+}
+
+
+
+.honour{
+font-size: 30px;
+    color:gray;
+    letter-spacing: 1px;
+}
+
+
+
+.honour h1:hover{
+cursor: pointer;
+color:aqua;
+transition: all 1s;
+}
+
+.post{
+    margin-top:20px;
+    color: gray;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.post:hover{
+    cursor: pointer;
+    color:aqua;
+    transition: all 1s;
+}

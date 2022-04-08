@@ -1,0 +1,457 @@
+<!-- client id = 464893023062-ai7816he8c8tmck4qppt6hauhnp1ltd9.apps.googleusercontent.com -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern-Cryptopunks </title>
+  <meta name="google-signin-client_id" content="464893023062-ai7816he8c8tmck4qppt6hauhnp1ltd9.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <!--Webpage title-->
+  <link rel="stylesheet" href="header.css">
+  <!--Link for stylesheet for header section-->
+  <link rel="stylesheet" href="main.css">
+  <!--link for stylesheet for main body section-->
+  <link rel="stylesheet" href="lowbody.css">
+  <link rel="stylesheet" href="footer.css">
+  <!-- link for footer section   -->
+<!-- link for logout screen -->
+<link rel="stylesheet" href="logout.css">
+<!-- link for mobile responsive effects -->
+<link rel="stylesheet" href="responsive.css">
+
+<!-- favicon  -->
+<link rel="shortcut icon" href="assets/punkhead.png" type="image/x-icon" >
+
+</head>
+
+<body>
+
+  <!-- Modern_cryptopunk -->
+
+  <!-- header navigation bar -->
+  <!-- Top bar -->
+
+<div id="maincontainer">
+
+  <div class="topbar">
+    <!-- LOgo -->
+    <div class="logo">
+      <img src="assets/cryptopunk-logo.png" alt="error" />
+    </div>
+
+    <!-- serachbar -->
+    <div class="searchbar">
+      <!-- sicon -->
+      <div class="sicon">
+        <img src="assets/search.png" alt="Error" />
+      </div>
+
+      <!-- bar -->
+      <div class="bar">
+        <form onsubmit="saved(event)">
+          <input type="text" placeholder="Search for cryptopunks ..." class="bartext" id="bartext" />
+        </form>
+
+      </div>
+    </div>
+
+
+
+
+
+
+     <!-- theme switch -->
+     <div class="theme">
+
+      <img src="assets/dark-mode.svg" alt="error" class="themeimg" onclick="theme()">
+    </div>
+
+
+
+    <!-- otheroptions -->
+    <div class="others">
+<!-- // profile image to be kept here.. -->
+      
+     
+
+
+    </div>
+
+
+   
+
+
+    <!-- collaborate -->
+    <div class="collab">
+      <!-- sign out button -->
+      <div class="signout"  onclick="signOut()">
+        <p class="p">Sign Out </p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Main Body section  -->
+  <div class="mainbody">
+
+    <!-- information section   -->
+    <div class="maininfo">
+
+
+      <!-- main image -->
+      <div class="image">
+        <img src="assets/punks/5.jpg" alt="image" id="mainimage">
+      </div>
+
+      <!-- main name and others  -->
+      <div class="mainname">
+
+        <!-- main info    -->
+        <div class="info">
+          <!-- punk name -->
+          <h1 id="punkname">
+            Bandana Punk
+          </h1>
+
+          <!-- punk index -->
+          <div class="ind">
+            <div id="punkindex">
+              #0
+
+            </div>
+            <div class='epr'> <img src="assets/eth.png" alt="error">
+              <span id="num">8</span>
+            </div>
+          </div>
+        </div>
+        <!-- wallet info-->
+        <div class="wallet">
+
+          <div class="symbol">
+            ffb
+
+          </div>
+
+          <div class="walletinfo">
+            <h4 id="wallet">
+
+            </h4>
+
+
+           <a href="#" target='_main'><h3 id="insta"></h3></a> 
+
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+
+
+
+    </div>
+
+    <!-- social accounts -->
+    <div class="social">
+
+      <div class="socialicons">
+        <img src="assets/instagram.png" alt="image" class="s" onclick="instalink()">
+        <img src="assets/twitter.png" alt="image" class="s" onclick="tweetlink()">
+        <img src="assets/more.png" alt="image" class="s" onclick="github()">
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+  <!-- lowerbody section  -->
+  <div class="lowbody">
+
+    <div class="temp">
+
+      <!-- template 1 -->
+      <div class="temp1" onclick="punk1()">
+
+        <img src="assets/punks/5.jpg" alt="error">
+        <div class="des">
+          <div class="inf">
+
+
+            <h3>Bandana Punk </h3>
+            <h4>#0</h4>
+          </div>
+          <div class="cost">
+            <img src="assets/weth.png" alt="error">
+            8
+          </div>
+
+        </div>
+
+      </div>
+
+         <!-- template 2  -->
+
+         <div class="temp1" onclick="punk9()">
+
+          <img src="assets/punks/9.jpg" alt="error">
+          <div class="des">
+            <div class="inf">
+  
+  
+              <h3>Terminator Punk</h3>
+              <h4>#1</h4>
+            </div>
+            <div class="cost">
+              <img src="assets/weth.png" alt="error">
+              38
+            </div>
+  
+          </div>
+  
+        </div>
+
+     
+
+
+      <!-- tempalet 3 -->
+      <div class="temp1" onclick="punk3()">
+
+        <img src="assets/punks/3.jpg" alt="error">
+        <div class="des">
+          <div class="inf">
+
+
+            <h3>Pirate King Punk</h3>
+            <h4>#2</h4>
+          </div>
+          <div class="cost">
+            <img src="assets/weth.png" alt="error">
+            37
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- template 4 -->
+      <div class="temp1" onclick="punk7()">
+
+        <img src="assets/punks/7.jpg" alt="error">
+        <div class="des">
+          <div class="inf">
+
+
+            <h3>Sun Yellow Punk</h3>
+            <h4>#3</h4>
+          </div>
+          <div class="cost">
+            <img src="assets/weth.png" alt="error">
+            22
+          </div>
+
+        </div>
+
+      </div>
+
+
+      
+
+      <!-- tempalte 5 -->
+
+      <div class="temp1" onclick="punk5()">
+
+        <img src="assets/punks/6.jpg" alt="error">
+        <div class="des"> 
+          <div class="inf">
+
+
+            <h3>Cool Sneaker Punk</h3>
+            <h4>#4</h4>
+          </div>
+          <div class="cost">
+            <img src="assets/weth.png" alt="error">
+            17
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- template 6 -->
+
+      <div class="temp1" onclick="punk6()">
+
+        <img src="assets/punks/2.jpg" alt="error">
+        <div class="des">
+          <div class="inf">
+
+
+            <h3>Green Tennis Punk</h3>
+            <h4>#5</h4>
+          </div>
+          <div class="cost">
+            <img src="assets/weth.png" alt="error">
+            18
+          </div>
+
+        </div>
+
+      </div>
+
+      
+
+      <!-- template 7 -->
+      <div class="temp1" onclick="punk8()">
+
+        <img src="assets/punks/8.jpg" alt="error">
+        <div class="des">
+          <div class="inf">
+
+
+            <h3>Toy Boy Punk</h3>
+            <h4>#6</h4>
+          </div>
+          <div class="cost">
+            <img src="assets/weth.png" alt="error">
+            14
+          </div>
+
+        </div>
+
+      </div>
+
+   
+
+      <!-- template 8 -->
+      <div class="temp1" onclick="punk10()">
+
+        <img src="assets/punks/10.jpg" alt="error">
+        <div class="des">
+          <div class="inf">
+
+    
+            <h3>Sprinter  Punk</h3>
+            <h4>#7</h4>
+          </div>
+          <div class="cost">
+            <img src="assets/weth.png" alt="error">
+            29
+          </div>
+
+        </div>
+
+      </div> 
+ 
+       <!-- template 9 -->
+       <div class="temp1" onclick="punk2()">
+
+        <img src="assets/punks/1.jpg" alt="error">
+        <div class="des">
+          <div class="inf">
+
+
+            <h3>Cigar Hat Punk</h3>
+            <h4>#8</h4>
+          </div>
+          <div class="cost">
+            <img src="assets/weth.png" alt="error">
+            9
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- template 10 -->
+
+      <div class="temp1" onclick="punk4()">
+
+        <img src="assets/punks/4.jpg" alt="error">
+        <div class="des">
+          <div class="inf">
+
+
+            <h3>Cyber Ghost Punk</h3>
+            <h4>#9</h4>
+          </div>
+          <div class="cost">
+            <img src="assets/weth.png" alt="error">
+            13
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+  
+  </div>
+
+  <!-- footer   -->
+  <footer>
+
+
+    
+
+  </footer>
+</div>
+
+<!-- log out page screen -->
+<div class="logoutpage">
+
+  <div class="logoutlogo">
+<img src="assets/cryptopunk-logo.png" alt="error">
+
+  </div>
+
+
+
+  <div class="txt">
+    <span> Modern - cryptopunks </span> 
+  </div>
+
+<div class="btn">
+  
+  <div class="g-signin2" data-width="220" data-height="50" data-longtitle="true"  data-onsuccess="onSignIn" data-theme="dark"  ></div>
+
+ 
+</div>
+
+
+<div class="logoutinfo">
+  Sign in with  your google account in  order to access the  modern - cryptopunks Web application 🚀
+  
+  
+</div>
+
+
+</div>
+
+
+
+</div>
+
+<script src="g-authentication.js"></script>
+  <script src="script.js"></script>
+  <!--link to script source-->
+</body>
+
+</html>

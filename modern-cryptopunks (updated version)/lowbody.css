@@ -1,0 +1,66 @@
+.temp {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: scroll;
+
+  display: flex;
+
+  scroll-behavior: smooth;
+
+  border-bottom: 1px solid white;
+  margin: auto 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.temp::-webkit-scrollbar {
+  display: none;
+}
+
+.temp1 {
+  background-color: #1c1c1e;
+  width: 250px;
+  border-radius: 30px;
+  padding-bottom: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.temp1 img {
+  width: 250px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.inf h3 {
+  color: white;
+  margin: 10px;
+  margin-bottom: 0px;
+  font-size: 20px;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.inf h4 {
+  color: #a1a5b0;
+  margin-left: 10px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.cost img {
+  width: 16px;
+  margin: 7px;
+  margin-right: 5px;
+}
+
+.cost {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}

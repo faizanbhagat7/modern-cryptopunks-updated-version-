@@ -1,0 +1,71 @@
+.g-signin2 {
+  color: #66feea;
+  margin-right: 30px;
+  margin-left: 560px;
+}
+
+.logoutpage {
+  background-image: url(assets/logout/bg.png);
+
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0px;
+
+  color: black;
+
+  font-size: 30px;
+}
+
+.logoutlogo > img {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-top: 4px solid #f2f0e4;
+  padding-top: 10px;
+}
+
+.logoutlogo {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 4px solid #f2f0e4;
+}
+
+.logoutpage .txt {
+  color: #000;
+
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  padding-top: 40px;
+
+  font-size: 60px;
+}
+
+.txt span {
+  border-bottom: 2px solid black;
+}
+
+.logoutinfo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 340px;
+  margin-right: 340px;
+  text-align: center;
+  font-family: roboto;
+  font-weight: 900;
+  word-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #012941;
+  padding-top: 15px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 12px;
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+  box-shadow: 0px 0px 20px black;
+}
