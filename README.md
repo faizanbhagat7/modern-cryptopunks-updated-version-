@@ -1,7 +1,7 @@
 
 <h1><b><i>✨ Modern crypto-punks web application ( updated version ) </i></b></h1>
 <h1><b> ✔ Link for the deployed Web Application</b></h1>
-https://stupendous-genie-d6659f.netlify.app/
+https://charming-raindrop-2b7ef2.netlify.app
  <br>
 <h2>💥 Updated Version includes :</h2>
 <h3>🚀  User Authentication powered by Google API  </h3>
