@@ -1,0 +1,185 @@
+
+
+/* ----------------- */
+
+@media screen and (max-width:1200px){
+  
+.logoutinfo{
+  display:none;
+}
+
+.searchbar{
+  
+  width:200px;
+}
+
+
+}
+ 
+/* ---------------------- */
+
+@media screen and (max-width:1140px){
+
+  .social{
+    display: none;
+  }
+
+  #punkname{
+    font-size: 45px;
+  }
+
+  
+
+}
+
+/* ----------------------------- */
+
+@media screen and (max-width:850px){
+
+  .searchbar{
+    display: none; 
+    
+  }
+
+  .ind{
+align-items: center;
+  }
+
+  .epr{
+   
+    font-size: 40px;
+margin-left: 30px;
+
+
+  }
+  .epr img{
+    width: 40px;
+  }
+
+
+  #punkindex{
+    font-size: 45px;
+
+  }
+
+
+  .mainbody{
+    display:block;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+
+  .maininfo{
+    display: flex;
+    justify-content:space-between;
+    margin:0px;
+  }
+
+
+
+}
+
+@media screen and (max-width:700px){
+
+  .wallet{
+    margin:2px;
+  }
+
+  .image{
+
+    /* position:absolute; */
+    width:190px;
+  }
+
+  .logo{
+    display:none;
+  }
+  
+  #mainimage {
+    width: 150px;
+    height: 150px;
+  }
+
+
+ #wallet{
+   display:none;
+ } 
+ 
+ #insta{
+
+  font-size: small;
+ }
+ 
+ .wallet{
+   align-items: center;
+ }
+
+ .epr{
+   display:none;
+ }
+
+  .maininfo {
+    margin-right: 100px;
+  }
+
+  .logo img {
+    margin-right: 0px;
+  }
+  #punkname{
+    font-size: 30px;
+  }
+
+
+
+  .temp img {
+    width: 120px;
+  }
+  .cost img {
+    width: 16px;
+    margin: 7px;
+    margin-right: 5px;
+  }
+  .temp1 {
+    padding-bottom: -100px;
+    margin-left: 5px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+
+
+/* ----------------------- */
+@media screen and (max-width:500px) {
+  
+  logoutpage{
+    width:100%;
+  }
+
+  .logoutlogo{
+    width: 300px;
+  }
+
+  .logoutpage .txt {
+    font-size: 40px;
+  }
+
+
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
